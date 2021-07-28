@@ -44,5 +44,5 @@ function login(){
 
 function logout(){
   firebase.auth().signOut();
-  location. replace("https://www.google.com");
+  location. replace("https://anshugahlyan.github.io/5g/");
 }
