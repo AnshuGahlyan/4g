@@ -1,0 +1,52 @@
+<html>
+<head>
+  <title>Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  
+
+</head>
+<body>
+ 
+  <div id="login_div" class="main-div">
+    
+    <h3 >Dark Web</h3>
+    <h4>Construction Going On</h4>
+    <h5>Construction Going On</h5>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+
+    <button onclick="login()">Login to Account</button>
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <h3>Welcome User</h3>
+    <p id="user_para">Welcome User :  These is a Imp.. Code You will need it just copy it.~~~~Click Next "RW5jb2RlIHRoZXNlICJWRWhGSUZCQlUxTlhUMUpFSUVsVElDSTRPVFExT1RNaSIgaW4gYmFzZSA2NA=="</p>
+    <button onclick="logout()">Next</button>
+  </div>
+  <div class="parent">
+    <img class="image1" src="1.png" />
+    <img class="image2" src="2.png" />
+  </div>
+  
+    
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+var config = {
+     
+  apiKey: "AIzaSyDTDeS_YM5kDWmmN9W0VZ54PdfkG4wZoQE",
+  authDomain: "login-78c13.firebaseapp.com",
+  databaseURL: "https://login-78c13-default-rtdb.firebaseio.com",
+  projectId: "login-78c13",
+  storageBucket: "login-78c13.appspot.com",
+  messagingSenderId: "55822646037",
+  appId: "1:55822646037:web:3a6c4fe6d3217d33c7871c"
+
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="index.js"></script>
+
+</body>
+</html>
