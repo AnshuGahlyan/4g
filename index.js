@@ -6,7 +6,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
     document.getElementById("user_div").style.display = "block";
     document.getElementById("login_div").style.display = "none";
-  //  location. replace("https://www.google.com");
+
     var user = firebase.auth().currentUser;
 
     if(user != null){
